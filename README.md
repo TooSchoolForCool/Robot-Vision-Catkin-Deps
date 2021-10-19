@@ -1,2 +1,4 @@
-# Robot-Vision-Deps
-Common dependencies for Robot Vision System
+# ApproxMVBB_catkin
+
+
+A catkinized version of the ApproxMVBB library.
