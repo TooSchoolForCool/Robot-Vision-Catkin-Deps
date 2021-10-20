@@ -51,6 +51,7 @@ class TransformListener
 public:
   /**@brief Constructor for transform listener */
   TransformListener(tf2::BufferCore& buffer, bool spin_thread = true);
+  TransformListener(tf2::BufferCore& buffer, const ros::NodeHandle& nh, bool spin_thread = true);
   TransformListener(tf2::BufferCore& buffer, const ros::NodeHandle& nh, bool spin_thread = true,
     ros::TransportHints transport_hints = ros::TransportHints());
 
