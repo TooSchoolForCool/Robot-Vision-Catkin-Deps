@@ -11,7 +11,7 @@ include(ExternalProject)
 
 ExternalProject_Add(approxmvbb_src
   GIT_REPOSITORY  https://github.com/gabyx/ApproxMVBB.git
-  GIT_TAG cfb6cf70a09642730507195a89315a9e29ef6607
+  GIT_TAG 838f3ff7690a938f1e4199a5f41b6feefc32a603
   UPDATE_COMMAND ""
   CMAKE_ARGS -DCMAKE_INSTALL_PREFIX:PATH=${CATKIN_DEVEL_PREFIX}
              -DCMAKE_BUILD_TYPE:STRING=${CMAKE_BUILD_TYPE}
